@@ -1,30 +1,30 @@
 # Checkers AI (Prolog + Negamax)
 
-## Declarative AI: The Negamax Search Engine
+## Declarative AI - The Negamax Search Engine
 
-This project demonstrates the power of **Logic Programming** in solving complex adversarial search problems. By leveraging **Prolog's** inherent backtracking and unification capabilities, we implement a robust **Checkers AI** driven by the **Negamax** algorithm—an elegant variant of Minimax. Unlike imperative implementations that require verbose state management, this declarative approach allows us to define *what* a valid move is and *how* to evaluate a board state, letting the Prolog engine handle the "how" of the search tree traversal. The result is a compact, high-performance decision engine that explores thousands of future game states to execute optimal strategies against a human opponent.
+This project is one of the best demonstrations for the capability of Logic Programming to solve some of the most complex adversarial search problems. Because of the inherent backtracking and unification capabilities of Prolog, we build Checkers AI nourished from the powerful Negamax algorithm, which is an elegant variant of Minimax. It is not imperative in being verbose about managing state; instead, one just has to define what a valid move is, state how to evaluate a board state, and then leave the "how" of the search tree traversal to the Prolog engine. Therefore, the resulting engine is very compact and highly efficient while exploring thousands of future game states to execute optimal strategies against the human opponent. 
 
 ## Key Features
 
-- **Declarative State Space**: The board and game rules are defined as logical facts and rules, making the code intuitive and verifiable.
-- **Negamax Algorithm**: A simplified Minimax implementation that maximizes the score for the current player by negating the opponent's score.
-- **Alpha-Beta Pruning**: (Implicitly structured) Efficiently prunes irrelevant branches of the search tree to deepen the search horizon.
-- **Heuristic Evaluation**: A positional and material-based evaluation function to guide the AI's strategy.
+- **Declarative State Space**: The reality of board and game rules as logical facts and rules makes code intuitive and checkable.
+- **Negamax Algorithm**: A simplified Minimax implementation in which an increase in score for current player comes at the expense of reducing the score of the opponent.
+- **Alpha-Beta Pruning**: (Implicitly structured) More depth in search horizons by efficiently pruning irrelevant branches of the search tree.
+- **Heuristic Evaluation**: A positional and material basis-based evaluation function to guide the strategy of the AI.
 
 ## Code Structure
 
 The core logic is contained in `src/checkers.pl`:
 
 - **`initial_board/1`**: Defines the starting 8x8 grid.
-- **`evaluate/2`**: Calculates the heuristic value of a board state.
+- **`evaluate/2`**: Computes the heuristic value of a board state.
 - **`valid_move/3`**: Generates legal moves using backtracking.
 - **`negamax/5`**: The recursive search algorithm finding the best move.
 
 ## Installation
 
 ### Prerequisites
-- **SWI-Prolog**: Download and install from [swi-prolog.org](https://www.swi-prolog.org/Download.html)
-  - Windows: Download the installer and run it
+- **SWI-Prolog**: Download from [swi-prolog.org](https://www.swi-prolog.org/Download.html) and install.
+  - Windows: Download launch installer and run it
   - macOS: `brew install swi-prolog`
   - Linux: `sudo apt-get install swi-prolog`
 
@@ -138,10 +138,10 @@ Adjust the depth parameter for stronger/faster play:
 ## Troubleshooting
 
 **Issue**: `ERROR: source_sink 'src/checkers.pl' does not exist`
-- **Solution**: Make sure you're in the project root directory when launching `swipl`
+- **Solution**: Go to the project root directory while launching `swipl`
 
 **Issue**: Prolog not recognized
-- **Solution**: Ensure SWI-Prolog is installed and added to your system PATH
+- **Solution**: Installing SWI-Prolog and adding it to the system PATH.
 
 **Issue**: Search takes too long
-- **Solution**: Reduce the search depth parameter (use 2-3 instead of 5+)
+- **Solution**: Lower the search depth parameter (use 2-3 instead of 5+).
