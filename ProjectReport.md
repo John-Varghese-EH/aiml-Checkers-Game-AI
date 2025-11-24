@@ -30,11 +30,11 @@
 This project implements an intelligent Checkers game AI using **Prolog** and the **Negamax algorithm**, a variant of the classic Minimax algorithm. The AI demonstrates the power of declarative programming in solving adversarial search problems. By leveraging Prolog's backtracking and unification capabilities, the implementation achieves a compact yet powerful decision-making engine capable of playing Checkers at intermediate to advanced levels.
 
 **Key Achievements:**
-- ✅ Fully functional Checkers AI with configurable difficulty levels
-- ✅ Efficient Negamax search with alpha-beta pruning
-- ✅ Declarative board representation and rule system
-- ✅ Heuristic evaluation function for strategic play
-- ✅ Clean, maintainable codebase with comprehensive documentation
+-  Fully functional Checkers AI with configurable difficulty levels
+-  Efficient Negamax search with alpha-beta pruning
+-  Declarative board representation and rule system
+-  Heuristic evaluation function for strategic play
+-  Clean, maintainable codebase with comprehensive documentation
 
 ---
 
@@ -287,7 +287,7 @@ Score = (BlackMaterial - WhiteMaterial) +
 Score = 0.  % Balanced starting position
 ```
 **Expected:** Score = 0 (equal material)  
-**Result:** ✅ Pass
+**Result:**  Pass
 
 #### Test 2: Piece Counting
 ```prolog
@@ -298,7 +298,7 @@ BlackCount = 12.
 WhiteCount = 12.
 ```
 **Expected:** 12 pieces per side  
-**Result:** ✅ Pass
+**Result:**  Pass
 
 #### Test 3: Move Generation
 ```prolog
@@ -306,7 +306,7 @@ WhiteCount = 12.
 Count = 7.  % 7 possible opening moves for Black
 ```
 **Expected:** Multiple valid moves generated  
-**Result:** ✅ Pass
+**Result:**  Pass
 
 #### Test 4: Negamax Search
 ```prolog
@@ -314,7 +314,7 @@ Count = 7.  % 7 possible opening moves for Black
 Score = [calculated score].
 ```
 **Expected:** Returns a numeric score within bounds  
-**Result:** ✅ Pass
+**Result:**  Pass
 
 ### Validation Strategy
 
@@ -516,10 +516,10 @@ This project successfully demonstrates the application of **logic programming** 
 
 ### Technical Achievements
 
-- ✅ Fully functional Checkers AI with configurable difficulty
-- ✅ Efficient search algorithm with pruning optimization
-- ✅ Clean, maintainable codebase with comprehensive documentation
-- ✅ Successful validation through extensive testing
+-  Fully functional Checkers AI with configurable difficulty
+-  Efficient search algorithm with pruning optimization
+-  Clean, maintainable codebase with comprehensive documentation
+-  Successful validation through extensive testing
 
 ### Learning Outcomes
 
@@ -581,10 +581,6 @@ Refer to [QUICKSTART.md](QUICKSTART.md) for quick start instructions.
 ### C. Example Code Snippets
 
 Refer to [examples/demo.pl](examples/demo.pl) for usage examples.
-
-### D. License Information
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
