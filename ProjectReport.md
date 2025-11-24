@@ -1,6 +1,6 @@
-# Checkers Game AI - Project Report
+# Project Report For Checkers Game AI
 
-**Project Name:** Checkers Game AI with Negamax Algorithm  
+**Project Title:** Checkers Game AI with Negamax  
 **Technology Stack:** Prolog (SWI-Prolog)  
 **Algorithm:** Negamax with Alpha-Beta Pruning  
 **Date:** November 2025  
@@ -27,14 +27,14 @@
 
 ## Executive Summary
 
-This project implements an intelligent Checkers game AI using **Prolog** and the **Negamax algorithm**, a variant of the classic Minimax algorithm. The AI demonstrates the power of declarative programming in solving adversarial search problems. By leveraging Prolog's backtracking and unification capabilities, the implementation achieves a compact yet powerful decision-making engine capable of playing Checkers at intermediate to advanced levels.
+This project implements a declarative Checkers AI using **Prolog** and the **Negamax algorithm**, a variant of the Minimax algorithm. This AI system shows how declarative programming helps solve adversarial search problems. It takes advantage of Prolog's backtracking and unification mechanisms to implement a compact but powerful decision-making engine that can play Checkers at an intermediate to advanced level.
 
-**Key Achievements:**
--  Fully functional Checkers AI with configurable difficulty levels
+**Highlights Include:**
+-  Fully operational Checkers AI with a configurable level of difficulty
 -  Efficient Negamax search with alpha-beta pruning
--  Declarative board representation and rule system
+-  Declarative board representation and rules system
 -  Heuristic evaluation function for strategic play
--  Clean, maintainable codebase with comprehensive documentation
+-  Clean and maintainable code base well documented
 
 ---
 
@@ -117,24 +117,6 @@ This project was developed to:
 | **Optimization** | Alpha-Beta Pruning | N/A | Search efficiency |
 | **Version Control** | Git | 2.x+ | Source code management |
 | **Platform** | Cross-platform | Windows/macOS/Linux | Deployment |
-
-### File Structure
-
-```
-aiml-Checkers-Game-AI/
-├── src/
-│   └── checkers.pl          # Core game logic and AI
-├── examples/
-│   └── demo.pl              # Usage examples
-├── assets/
-│   └── checkers_ai_banner.png
-├── README.md                # User documentation
-├── QUICKSTART.md            # Quick start guide
-├── ProjectReport.md         # This document
-└── LICENSE                  # MIT License
-```
-
----
 
 ## Implementation Details
 
@@ -348,78 +330,6 @@ Score = [calculated score].
 
 ---
 
-## Screenshots & Demonstrations
-
-### Screenshot 1: Initial Board Setup
-*[Placeholder - Add screenshot of initial board state in SWI-Prolog REPL]*
-
-![Initial Board Setup](screenshots/01_initial_board.png)
-
----
-
-### Screenshot 2: Loading the Checkers AI
-*[Placeholder - Add screenshot of loading checkers.pl]*
-
-![Loading Checkers AI](screenshots/02_loading_ai.png)
-
----
-
-### Screenshot 3: Board Evaluation
-*[Placeholder - Add screenshot of evaluate/2 predicate execution]*
-
-![Board Evaluation](screenshots/03_evaluation.png)
-
----
-
-### Screenshot 4: Move Generation
-*[Placeholder - Add screenshot of valid_move/3 generating moves]*
-
-![Move Generation](screenshots/04_move_generation.png)
-
----
-
-### Screenshot 5: Negamax Search Execution
-*[Placeholder - Add screenshot of negamax/5 running at depth 3]*
-
-![Negamax Search](screenshots/05_negamax_search.png)
-
----
-
-### Screenshot 6: Piece Counting
-*[Placeholder - Add screenshot of count_pieces/3 predicate]*
-
-![Piece Counting](screenshots/06_piece_counting.png)
-
----
-
-### Screenshot 7: Mid-Game Position
-*[Placeholder - Add screenshot of a mid-game board state]*
-
-![Mid-Game Position](screenshots/07_midgame.png)
-
----
-
-### Screenshot 8: King Promotion
-*[Placeholder - Add screenshot showing king promotion logic]*
-
-![King Promotion](screenshots/08_king_promotion.png)
-
----
-
-### Screenshot 9: Performance Benchmark
-*[Placeholder - Add screenshot of performance testing at different depths]*
-
-![Performance Benchmark](screenshots/09_performance.png)
-
----
-
-### Screenshot 10: Complete Game Session
-*[Placeholder - Add screenshot of a complete game session]*
-
-![Complete Game Session](screenshots/10_complete_session.png)
-
----
-
 ## Challenges & Solutions
 
 ### Challenge 1: Efficient Move Generation
@@ -532,19 +442,10 @@ Through this project, I gained valuable experience in:
 
 ### Final Thoughts
 
-The Checkers AI project demonstrates that **declarative programming** is not only viable but advantageous for certain AI applications. The elegance of Prolog's backtracking mechanism combined with the efficiency of the Negamax algorithm creates a powerful yet compact game AI. This project serves as both a technical achievement and an educational resource for those interested in the intersection of logic programming and artificial intelligence.
-
+The Checkers AI project demonstrates that declarative programming is not viable and doesn't benefit certain AI applications, while the elegance of Prolog's backtracking mechanism combined with the efficiency of the Negamax algorithm creates a robust yet compact game AI.
 ---
 
 ## References
-
-### Academic Papers
-
-1. Knuth, D. E., & Moore, R. W. (1975). *An analysis of alpha-beta pruning*. Artificial Intelligence, 6(4), 293-326.
-
-2. Russell, S., & Norvig, P. (2020). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson.
-
-3. Schaeffer, J., et al. (2007). *Checkers is Solved*. Science, 317(5844), 1518-1522.
 
 ### Technical Resources
 
@@ -557,16 +458,6 @@ The Checkers AI project demonstrates that **declarative programming** is not onl
 ### Code Repositories
 
 7. Project Repository: [https://github.com/John-Varghese-EH/aiml-Checkers-Game-AI](https://github.com/John-Varghese-EH/aiml-Checkers-Game-AI)
-
-### Additional Reading
-
-8. Bratko, I. (2011). *Prolog Programming for Artificial Intelligence* (4th ed.). Addison-Wesley.
-
-9. Clocksin, W. F., & Mellish, C. S. (2003). *Programming in Prolog* (5th ed.). Springer.
-
-10. Levy, D. N. L. (1983). *Computer Games*. Springer-Verlag.
-
----
 
 ## Appendix
 
@@ -585,10 +476,10 @@ Refer to [examples/demo.pl](examples/demo.pl) for usage examples.
 ---
 
 **Document Version:** 1.0  
-**Last Updated:** November 20, 2025  
+**Last Updated:** November 2025  
 **Author:** John Varghese  
 **Contact:** [GitHub Profile](https://github.com/John-Varghese-EH)
 
 ---
 
-*This project report was created as part of the AI/ML Checkers Game AI portfolio project.*
+*This project report was created as part of the AI/ML Checkers Game AI project.*
