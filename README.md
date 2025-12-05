@@ -40,8 +40,8 @@ swipl --version
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/John-Varghese-EH/aiml-Checkers-Game-AI.git
-   cd aiml-Checkers-Game-AI
+   git clone https://github.com/John-Varghese-EH/prolog-Checkers-Game-AI.git
+   cd prolog-Checkers-Game-AI
    ```
 
 2. **Launch SWI-Prolog**:
